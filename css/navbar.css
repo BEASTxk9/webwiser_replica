@@ -1,0 +1,95 @@
+/* NAVBAR */
+nav{
+    background-color: transparent;
+    mix-blend-mode: difference;
+    position: relative;
+    color: white;
+    top: 30px;
+}
+
+#navbar_logo, #navbar_toggle, #contact_us{
+    z-index: 50000;
+}
+/* logo */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+#navbar_logo ,#logo_link{
+    font-family: 'Agbalumo', system-ui;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+
+}
+/* nav btn icon */
+#navbar_toggler_icon{
+    color: white;
+}
+/* contact us btn */
+#contact_us{
+transition: all -0.3s ease-in-out;
+background-color: transparent;
+border: 1px solid white;
+border-radius: 5px;
+color: white;
+padding: 4px;
+width: 8vw;
+height: 4.5vh;
+}
+
+#contact_us:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+/* NAVBAR CONTENT */
+.collapse{
+    min-height: 50vh;
+    padding-bottom: 20px;
+}
+
+.collapse a{
+    color: white !important;
+    text-decoration: none;
+}
+
+/* NAVBAR ROUTE LINKS */
+#navbar_links a{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#navbar_links a:hover{
+    background-color: grey;
+}
+
+
+
+
+
+/* NAVBAR FOOTER */
+#navbar_footer{
+border-top: var(--borders);
+color: white;
+}
+
+#navbar_footer h6{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+#follow_us_icons{
+letter-spacing: 30px;
+padding-top: 20px;
+font-size: 2rem;
+}
+
+#our_offices p{
+    padding: 0;
+    margin: 0;
+    color: rgba(173, 169, 169, 0.993);
+}

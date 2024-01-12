@@ -1,0 +1,92 @@
+/* LANDING_SEC */
+#landing_sec{
+    padding-bottom: 5vh;
+}
+
+/* video */
+#home_video{
+    border-top-right-radius: var(--sec_border_radius);
+    border-top-left-radius: var(--sec_border_radius);
+    pointer-events: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#video_container {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 44%;
+    overflow: hidden;
+    border-top-right-radius: var(--sec_border_radius);
+    border-top-left-radius: var(--sec_border_radius);
+}
+
+#dark_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.641); /* Adjust the opacity as needed */
+    pointer-events: none;
+}
+
+#text_container {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    text-align: start;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    /* z-index: 1; */
+}
+
+#play_video{
+    background-color: transparent;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* content */
+#home_content_container{
+    padding: 60px;
+    color: white;
+    min-height: fit-content;
+    background-color: var(--dark_bg);
+    border-bottom-right-radius: var(--sec_border_radius);
+    border-bottom-left-radius: var(--sec_border_radius);
+ }
+
+ #heighlight{
+color: var(--heighlights);
+ }
+
+ #cards {
+    position: relative;
+    margin-top: 10px;
+}
+
+#cards::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 1px; /* Set the desired width */
+    background: linear-gradient(to bottom, rgb(32, 180, 239), grey); /* Set the desired gradient */
+}
+
+
+
+/* SERVICES_SEC */
+#services_container{
+    padding: 60px;
+}

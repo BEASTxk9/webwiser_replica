@@ -1,0 +1,51 @@
+/* CSS VARIABLES */
+:root{
+--sec_border_radius: 40px;
+--heighlights: rgb(32, 180, 239);
+--borders: 1px solid grey;
+--dark_bg: #100f0f;
+}
+
+
+
+
+/* ALL */
+*{
+margin: 0;
+padding: 0;
+}
+
+/* hide scrollbar */
+::-webkit-scrollbar{
+    display: none;
+}  
+
+body{
+    background-color: var(--dark_bg);
+}
+
+section{
+    min-height: 100vh;
+    background-color: white;
+
+}
+
+
+
+
+/* HEADER */
+
+
+
+/* MAIN */
+#landing_sec{
+    border-top-right-radius: var(--sec_border_radius);
+    border-top-left-radius: var(--sec_border_radius);
+    padding-top: 70px;
+    margin-top: -30px;
+    }
+
+
+
+
+/* FOOTER */
